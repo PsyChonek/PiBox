@@ -14,3 +14,23 @@ docker compose up -d
 ## Dark mode
 
 https://docs.theme-park.dev/themes/nginx-proxy-manager/
+
+### Docker compose 
+add the following to the `docker-compose.yml` file
+
+```yaml
+services:
+  app:
+    environment:
+      - THEME=dark
+``` 
+
+```yaml
+services:
+  app:
+    volumes:
+        - ./98-themepark:/etc/cont-init.d/99-themepark
+```
+
+### Download
+Download the file from the link above and place it in the root of the project. **98-themepark**
