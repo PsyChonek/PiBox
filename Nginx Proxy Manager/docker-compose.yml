@@ -17,7 +17,7 @@ services:
 
       # Uncomment this if IPv6 is not enabled on your host
       # DISABLE_IPV6: 'true'
-      - TP_THEME=Dark
+      - TP_THEME=organizr
 
     volumes:
       - ./data:/data
