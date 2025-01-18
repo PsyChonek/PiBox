@@ -21,7 +21,7 @@ services:
       SAMBA_CONF_LOG_LEVEL: 3
 
       # uncomment to disable optional services
-      #WSDD2_DISABLE: 1
+      WSDD2_DISABLE: 1
       AVAHI_DISABLE: 1
       #NETBIOS_DISABLE: 1
 
